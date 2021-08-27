@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand:wght@400;500&display=swap');
+
+/* started css styling */
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --playfire:'Poppins', sans-serif;
+    --text_style: 'Quicksand', sans-serif;
+    --Bxcolor:#0156a7;
+    --dark-color:#0078FF;
+}
+
