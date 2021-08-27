@@ -11,9 +11,60 @@
 }
 
 :root {
-    --playfire:'Poppins', sans-serif;
+    --font-m:'Poppins', sans-serif;
     --text_style: 'Quicksand', sans-serif;
     --Bxcolor:#0156a7;
     --dark-color:#0078FF;
+    --background: rgb(199, 205, 241);
 }
+a{
+    text-decoration: none;
+}
+.logo{
+    height: 100px;
+    margin-right: 10%;
+}
+
+.navbar{
+    background: var(--background);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.item__link{
+    font-family: var(--font-m) !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.05em !important;
+}
+
+.icons__link i{
+    font-size: 24px;
+    color: #000;
+}
+
+.icons__link:not(:nth-last-child(1)){
+    margin-right: 20px;
+}
+
+
+
+
+
+footer{
+    margin-bottom: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
